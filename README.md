@@ -1,6 +1,6 @@
 # server-status-tsp
 adalah media atau perangkat penunjang untuk tes calon programmer di PT. TSP
-Berisi data json status server, dengan mengakses ke http://server-status-tsp.firebaseapp.com/status
+Berisi data json status server, dengan mengakses ke https://server-status-tsp.firebaseapp.com/status
 
 
 ***
