@@ -13,20 +13,61 @@ app.get('/status', (request, response) => {
     
 
     let json = [{
-        "id": 1,
-        "alias": "Anderson",
-        "location": "Semarang",
-        "uptime": hours(Date.parse('May 12, 2014')),
-        "status": serverStatus()
-      },
-      {
-        "id": 2,
-        "alias": "Nabila",
-        "location": "Semarang",
-        "uptime": hours( Date.parse('June 12, 2012') ),
-        "status": serverStatus()
-      }
-    ];
+      "id": 1,
+      "alias": "Anderson",
+      "location": "Semarang",
+      "uptime": hours(Date.parse('May 12, 2014')),
+      "status": serverStatus()
+    },
+    {
+      "id": 2,
+      "alias": "Nabila",
+      "location": "Semarang",
+      "uptime": hours( Date.parse('June 12, 2012') ),
+      "status": serverStatus()
+    },
+    {
+      "id": 3,
+      "alias": "Tungslup",
+      "location": "Semarang",
+      "uptime": hours(Date.parse('May 10, 2014')),
+      "status": serverStatus()
+    },
+    {
+      "id": 4,
+      "alias": "LSM",
+      "location": "Singapore",
+      "uptime": hours( Date.parse('March 12, 2015') ),
+      "status": serverStatus()
+    },
+    {
+      "id": 5,
+      "alias": "Growell",
+      "location": "Singapore",
+      "uptime": hours(Date.parse('June 3, 2014')),
+      "status": serverStatus()
+    },
+    {
+      "id": 6,
+      "alias": "Ibra",
+      "location": "Semarang",
+      "uptime": hours( Date.parse('September 12, 2015') ),
+      "status": serverStatus()
+    },
+    {
+      "id": 7,
+      "alias": "Wongfeihung",
+      "location": "Ningxia",
+      "uptime": hours(Date.parse('August 20, 2016')),
+      "status": serverStatus()
+    },
+    {
+      "id": 8,
+      "alias": "Budak",
+      "location": "Semarang",
+      "uptime": hours( Date.parse('January 10, 2016') ),
+      "status": serverStatus()
+    }];
 
 
     response.send( json ) ;
@@ -97,10 +138,7 @@ app.get('/status-cached', (resuest, response) => {
         "location": "Semarang",
         "uptime": hours( Date.parse('January 10, 2016') ),
         "status": serverStatus()
-      }
-
-
-    ];
+      }];
 
 
     response.send( json ) ;
